@@ -19,6 +19,7 @@ export default function index() {
           <div className={styles.cards}>
             <div className={styles.card1}>
               <img src="../images/basic.png" alt="" />
+              <h4>BASIC</h4>
               <hr />
               <ul>
                 <li>24/7 Lorem, </li>
@@ -42,6 +43,7 @@ export default function index() {
             </div>
             <div className={styles.card1}>
               <img src="../images/standard.png" alt="" />
+              <h4>STANDARD</h4>
               <hr />
               <ul>
                 <li>24/7 Lorem, </li>
@@ -65,6 +67,7 @@ export default function index() {
             </div>
             <div className={styles.card1}>
               <img src="../images/premium.png" alt="" />
+              <h4>PREMIUM</h4>
               <hr />
               <ul>
                 <li>24/7 Lorem, </li>
