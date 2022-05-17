@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+
+  .section {
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    .cards {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      border: 3px solid black;
+      padding: 2rem;
+      margin: 2rem;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      text-align: center;
+
+      .card1 {
+        padding: 2rem;
+        border-radius: 10px;
+        background-color: rgb(206, 194, 194);
+        color: #333;
+        margin: 3rem;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: 2px 2px 2px 2px rgb(109, 109, 109);
+        }
+
+        img {
+          padding: auto;
+          max-width: 70px;
+        }
+
+        .getStarted {
+          padding: 10px 20px;
+          background: black;
+          color: white;
+          font-size: 13px;
+          border-radius: 3px;
+        }
+
+        button {
+          background-color: black;
+          color: white;
+          padding: 10px 20px;
+          align-self: center;
+          justify-content: content;
+          border-radius: 5px;
+          margin-bottom: 25px;
+          text-align: center;
+          transition: all 0.5s ease-in-out;
+
+          &:hover {
+            background-color: rgb(38, 38, 38);
+            cursor: pointer;
+          }
+        }
+      }
+
+      @media screen and (max-width: 580px) {
+        .card1 {
+          padding: 10px;
+          border-radius: 10px;
+          background-color: rgb(206, 194, 194);
+          color: #333;
+          margin: 10px;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          transition: all 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+}

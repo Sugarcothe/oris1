@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "EuclidCircularA";
+	src: url("/fonts/EuclidCircularA-Light-WebXL.woff") format("woff"),
+		url("/fonts/EuclidCircularA-Light-WebXL.woff2") format("woff2");
+
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EuclidCircularA";
+	src: url("/fonts/EuclidCircularA-Regular-WebXL.woff") format("woff"),
+		url("/fonts/EuclidCircularA-Regular-WebXL.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EuclidCircularA";
+	src: url("/fonts/EuclidCircularA-Medium-WebXL.woff") format("woff"),
+		url("/fonts/EuclidCircularA-Medium-WebXL.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "EuclidCircularA";
+	src: url("/fonts/EuclidCircularA-Semibold-WebXL.woff") format("woff"),
+		url("/fonts/EuclidCircularA-Semibold-WebXL.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background-color: #f6f5ee;
+	font-family: "EuclidCircularA", sans-serif;
+	font-weight: 400;
+	color: #000;
+	//letter-spacing: -0.03em;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+.conversational-form {
+	margin: 0px !important;
+	//height: 90vh;
+	max-width: 700px;
+	margin-bottom: 60px !important;
+	padding-bottom: 60px !important;
+	position: fixed !important;
+}
+.inputWrapper {
+	position: fixed !important;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	max-width: 700px;
+}

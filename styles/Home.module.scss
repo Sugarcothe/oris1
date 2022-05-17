@@ -1,0 +1,122 @@
+.logo {
+	height: 60px;
+	width: 130px;
+	img {
+		height: 100%;
+		width: auto;
+	}
+	//background: black;
+}
+.hero {
+	width: calc(100% - 30px);
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 2% 0 5%;
+	max-width: 1180px;
+	margin: auto;
+	gap: 30px;
+
+	@media screen and (max-width: 700px) {
+		padding-top: 40px;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: none;
+		padding-bottom: 80px;
+	}
+}
+.mark {
+	@media screen and (max-width: 700px) {
+		display: none;
+	}
+	opacity: 0.3;
+	height: 90%;
+	width: 80%;
+	background: url("/images/mark.svg") center / contain no-repeat;
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	list-style: none;
+	gap: 28px;
+	@media screen and (max-width: 700px) {
+		gap: 18px;
+	}
+}
+
+.menu__item {
+	display: flex;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.image {
+	background: url("/images/61d99b60c3c263e48ee6ee38_hero-03.jpeg") center /
+		cover no-repeat;
+	border-radius: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-right: 40px;
+	@media screen and (max-width: 700px) {
+		padding-right: 0px;
+	}
+}
+
+.title {
+	font-size: 50px;
+	letter-spacing: 0px;
+	font-weight: 700;
+	margin-top: 0;
+	line-height: 1.1;
+
+	// span {
+	// 	background: url("https://assets.website-files.com/613d5c4dc4abb8c7f1d44b8f/61493dd9e6ef2a818f97bd7e_scribble-3_1.svg")
+	// 		bottom center / contain no-repeat;
+	// }
+	@media screen and (max-width: 700px) {
+		font-size: 38px;
+	}
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	max-width: 500px;
+	margin-bottom: 20px;
+}
+.getStarted {
+	padding: 20px 30px;
+	background: black;
+	color: white;
+	white-space: nowrap;
+	margin-right: 20px;
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 3px;
+	z-index: 9999;
+
+	@media screen and (max-width: 700px) {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		margin-left: -15px;
+		border-radius: 0;
+	}
+}
+
+.howto {
+	min-height: 400px;
+	background-color: #1f1f1f;
+}
