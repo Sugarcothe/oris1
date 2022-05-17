@@ -69,16 +69,31 @@
 
       @media screen and (max-width: 580px) {
         .card1 {
-          padding: 5px;
-          border-radius: 5px;
+          padding: 2px;
+          border-radius: 2px;
           background-color: rgb(206, 194, 194);
           color: #333;
-          margin: 10px;
+          margin: unset;
+          margin-top: 10px;
           justify-content: center;
           align-items: center;
           align-content: center;
           transition: all 0.5s ease-in-out;
+          border: 1px solid black;
         }
+      }
+    }
+
+    @media screen and (max-width: 580px) {
+      .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: unset;
+        margin: unset;
+        border-radius: 2px;
+        border: unset;
       }
     }
   }
